@@ -1,6 +1,6 @@
 {
   "name": "@fujiechen/vue3-tags-input",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Fujie Chen",
   "license": "MIT",
   "description": "A tags input component for Vue 3 with autocompletion, custom validation, templating and much more",
