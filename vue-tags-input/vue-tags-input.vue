@@ -5,10 +5,10 @@
 
 <template>
   <div
+    :id="$attrs.id ?? 'vue-tags-input'"
     class="vue-tags-input"
     :class="[{ 'ti-disabled': disabled }, { 'ti-focus': focused }, $attrs.class]"
     :style="$attrs.style"
-    :id="$attrs.id"
   >
     <div class="ti-input">
       <ul v-if="tagsCopy" class="ti-tags">
